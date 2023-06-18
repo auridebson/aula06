@@ -1,5 +1,10 @@
 # Web Site Full Stack
-Projeto de Site com JavaScript
+Projeto de Estudo - Curso FullStack da Ifinity
+----------------------------------------------
+
+#Features
+  - Divs clicáveis
 
 
-Alteração feitas on-line - instantaneamente
+#Linguagem
+  - JavaScript
