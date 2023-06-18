@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+<body>
+
+    <h1>Aula de Githut</h1> 
+
+    <h3>Prof. Getúlio Wagner</h3>
+
+    <hr>
+
+    <ul>
+        <li id="li1">Item 1 Estático</li>
+        <li id="li2">Item 2 Estático</li>
+        <li id="li3">Item 3 Estático</li>
+    </ul>
+
+    <p></p>
+
+    <p><div id="q1" class="q1" onmousedown="bate()" onmouseup="desbate()"></div></p>
+    <p><div id="q2" class="q2" onmousedown="bate()" onmouseup="desbate()"></div></p>
+    <p><div id="q3" class="q3" onmousedown="bate()" onmouseup="desbate()"></div></p>
+
+
+    <script>
+        function bate() {
+            let quadro = document.getElementById('q1')
+            let li1 = document.getElementById('li1')
+            quadro.style.backgroundColor = 'black'
+            li1.innerText = '#Item dinâmico Down'
+
+        }
+        function desbate() {
+            let quadro = document.getElementById('q1')
+            let li1 = document.getElementById('li1')
+            quadro.style.backgroundColor = 'pink'
+            li1.innerText = '- Item dinâmico UP'
+
+        }
+    </script>
+
+
+    
+</body>
+</html>

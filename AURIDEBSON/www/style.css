@@ -1,0 +1,27 @@
+* {
+    background-color: rgb(167, 165, 165);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 6px;
+
+}
+
+div {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(224, 179, 187);
+    padding: 6px;
+    display: flexbox;
+    
+}
+
+div.q1 {
+    background-color: rgb(236, 181, 190);
+}
+
+div.q2 {
+    background-color: rgb(172, 129, 136);
+}
+
+div.q3 {
+    background-color: rgb(128, 97, 102);
+} 
